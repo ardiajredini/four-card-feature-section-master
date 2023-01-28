@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Kumbh+Sans&family=Montserrat:wght@500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body,span,p,h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins';
+    background: #FAFAFA;
+}
+
+
+
+
+
+.header-text{
+   text-align: center; 
+   padding-top: 80px;
+}
+
+.light-text{
+    font-size: 30px;
+    font-weight: 200;
+}
+
+
+.bold-text{
+    font-size: 30px;
+}
+
+.article{
+    margin: 15px;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+
+.box{
+    padding-top: 70px;
+    display: grid;
+    gap: 2rem;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+}
+
+
+.up-down{
+    display: grid;
+    row-gap: 2rem;
+}
+
+.box-1{
+    margin-top: 130px;
+    padding: 25px;
+    border-top: 4px solid #43D3D3;
+    width: 349px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 2px #D9E3ED;
+}
+
+.box-2{
+    padding: 25px;
+    border-top: 4px solid #E45755;
+    width: 349px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 2px #D9E3ED;
+}
+.box-3{
+    padding: 25px;
+    border-top: 4px solid #F5AE54;
+    width: 349px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 2px #D9E3ED;
+}
+.box-4{
+    margin-top: 130px;
+    padding: 25px;
+    border-top: 4px solid #529EF0;
+    width: 349px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 2px #D9E3ED;
+}
+
+.icon{
+    float: right;
+    margin-top: 50px;
+}
+
+.box-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 50px;
+    /* identical to box height */
+    letter-spacing: 0.035em;
+    color: #545663;
+}
+
+.box-text{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+color: #C2C2C4;
+}
+
+
+  
+  @media screen and (max-width: 912px) {
+
+    main{
+        text-align: center;
+    }
+
+    .box{
+       
+        padding: 0;
+        display: inline-grid;
+        grid-template-columns: auto;
+        place-content: center;
+        
+    }
+
+    .box-1{
+        margin-top: 40px;
+    }
+
+    .box-4{
+        margin-top: 0px;
+        margin-bottom: 150px;
+    }
+
+
+    .light-text{
+        font-size: 25px;
+        font-weight: 200;
+    }
+    
+    
+    .bold-text{
+        font-size: 25px;
+    }
+  }
